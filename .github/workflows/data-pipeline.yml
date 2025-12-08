@@ -141,6 +141,7 @@ jobs:
             echo "✅ 检测到数据变更"
             echo "has_changes=true" >> $GITHUB_OUTPUT
           fi
+        continue-on-error: true
 
       - name: 提交变更
         if: steps.check_changes.outputs.has_changes == 'true'
