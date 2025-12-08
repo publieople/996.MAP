@@ -2,11 +2,13 @@ name: 996.MAP Data Pipeline
 
 on:
   schedule:
-    # 每周日凌晨2点 UTC 运行
-    - cron: "0 2 * * 0"
+    - cron: "0 2 * * 0" # 每周日凌晨2点 UTC
+  workflow_dispatch: # 允许手动触发
 
-  workflow_dispatch:
-    # 允许手动触发
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
   sync-data:
@@ -17,7 +19,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: main
-          token: ${{ secrets.GITHUB_TOKEN }}
+          # token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: 检出 upstream-sync 分支
         run: |
@@ -43,7 +45,7 @@ jobs:
           cp upstream-sync/blacklist/README.md data/raw_blacklist.md || true
 
       - name: 安装 uv
-        uses: astral-sh/setup-uv@v3
+        uses: astral-sh/setup-uv@v4
         with:
           version: "latest"
           enable-cache: true
@@ -99,7 +101,6 @@ jobs:
 
       - name: 验证 GeoJSON 文件
         run: |
-          # 检查文件大小
           FILE_SIZE=$(stat -c%s "public/companies.geojson")
           if [ $FILE_SIZE -lt 1024 ]; then
             echo "❌ GeoJSON 文件太小 (< 1KB)"
@@ -110,14 +111,12 @@ jobs:
             exit 1
           fi
 
-          # 验证 JSON 格式
           uv run python -m json.tool "public/companies.geojson" > /dev/null
           if [ $? -ne 0 ]; then
             echo "❌ GeoJSON 格式无效"
             exit 1
           fi
 
-          # 验证是否包含 features
           FEATURE_COUNT=$(uv run python -c "import json; data=json.load(open('public/companies.geojson')); print(len(data.get('features', [])))")
           if [ $FEATURE_COUNT -eq 0 ]; then
             echo "❌ GeoJSON 不包含任何 features"
@@ -128,22 +127,15 @@ jobs:
 
       - name: 备份数据文件
         run: |
-          # 创建备份目录
           mkdir -p data/archives
-
-          # 生成备份文件名
           BACKUP_DATE=$(date -u +%Y-%m-%d)
-
-          # 备份中间文件
           cp data/companies.json "data/archives/companies-${BACKUP_DATE}.json"
           cp data/companies-with-coords.json "data/archives/companies-with-coords-${BACKUP_DATE}.json"
-
           echo "✅ 数据备份完成"
 
       - name: 检查数据变更
         id: check_changes
         run: |
-          # 检查是否有变更
           git diff --quiet public/companies.geojson
           if [ $? -eq 0 ]; then
             echo "❌ 数据无变更，跳过提交"
@@ -159,22 +151,18 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
 
-          # 添加变更的文件
           git add public/companies.geojson
           git add data/archives/
 
-          # 提交变更
           COMMIT_MSG="auto: update map data $(date -u +%Y-%m-%d)"
           git commit -m "$COMMIT_MSG"
-
-          # 推送到 main 分支
           git push origin main
 
           echo "✅ 数据已提交: $COMMIT_MSG"
 
       - name: 部署到 GitHub Pages
         if: steps.check_changes.outputs.has_changes == 'true'
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
@@ -183,7 +171,7 @@ jobs:
 
       - name: 上传错误日志
         if: failure()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: error-logs
           path: |
@@ -194,6 +182,5 @@ jobs:
       - name: 清理缓存
         if: always()
         run: |
-          # 清理临时文件
           rm -f data/raw_blacklist.md
           echo "✅ 清理完成"
