@@ -1,0 +1,4776 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.512408,
+          31.282234
+        ]
+      },
+      "properties": {
+        "city": "上海",
+        "name": "小站教育",
+        "url": "https://www.zhan.com/",
+        "schedule": "10106",
+        "evidence": [
+          "https://www.zhihu.com/question/27635270"
+        ],
+        "color": "#ffd740",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.427759,
+          31.344324
+        ]
+      },
+      "properties": {
+        "city": "苏州",
+        "name": "苏州科技城",
+        "url": "",
+        "schedule": "996",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.469513,
+          39.892894
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "首约汽车",
+        "url": "",
+        "schedule": "",
+        "evidence": [],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.325915,
+          31.391802
+        ]
+      },
+      "properties": {
+        "city": "六安",
+        "name": "六安人论坛",
+        "url": "",
+        "schedule": "",
+        "evidence": [],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.407387,
+          39.904179
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "必胜课",
+        "url": "",
+        "schedule": "",
+        "evidence": [],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.185475,
+          22.703675
+        ]
+      },
+      "properties": {
+        "city": "杭州",
+        "name": "杭州一喂智能科技有限公司",
+        "url": "http://www.yivicar.com",
+        "schedule": "996",
+        "evidence": [
+          "https://github.com/996icu/996.ICU/pull/25841"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.209903,
+          30.246566
+        ]
+      },
+      "properties": {
+        "city": "杭州",
+        "name": "彩讯股份",
+        "url": "https://www.richinfo.cn/",
+        "schedule": "十年社保只有五天年假(严重违法)，每月义务加班4.5天不等，绩效按加班时长排",
+        "evidence": [],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.118401,
+          39.093479
+        ]
+      },
+      "properties": {
+        "city": "天津",
+        "name": "云账户",
+        "url": "https://www.yunzhanghu.com/",
+        "schedule": "大小周",
+        "evidence": [],
+        "color": "#ffab40",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.332073,
+          39.866992
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "中国农业银行研发中心",
+        "url": "http://www.abchina.com/cn/",
+        "schedule": "996无偿加班，降薪",
+        "evidence": [
+          "https://maimai.cn/web/gossip_detail?src=app&webid=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZ2lkIjoiNzlhYTRlOWIwYTIxMTFlYzg4NTBlNDQzNGIyZmE4ODgiLCJ1IjoyMjU2OTYxNTcsImlkIjoyOTM1MjMxOH0.Hrz8kApYUk4jt8-AG8daEbT7s6Dy6jvX56m3YNVVblo&share_channel=2&_share_channel=wechat",
+          "https://maimai.cn/web/gossip_detail?src=app&webid=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZ2lkIjoiZGM0MmFkYmQwYmJhMTFlY2JkZTZlNDQzNGIyZmE4ODgiLCJ1Ijo3NzA0NDc0MSwiaWQiOjI5MzYwODA2fQ._s1E-UBE0b_BIyDjJJOqYBU6UOnHMNO3F6QERm-K3qw&share_channel=2&_share_channel=wechat",
+          "https://www.zhihu.com/question/484172369?utm_source=wechat_session&utm_medium=social&utm_oi=1101404494474088448&utm_content=group1_supplementQuestions&utm_campaign=shareopn"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.473667,
+          31.230525
+        ]
+      },
+      "properties": {
+        "city": "上海",
+        "name": "百安居",
+        "url": "https://www.bthome.com/",
+        "schedule": "996",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.323394,
+          31.235763
+        ]
+      },
+      "properties": {
+        "city": "上海",
+        "name": "拼多多",
+        "url": "https://www.pinduoduo.com//",
+        "schedule": "11116、两班倒",
+        "evidence": [
+          "http://www.taobao92.com/thread-1313-1-1.html",
+          "https://www.zhihu.com/question/437702180"
+        ],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.473667,
+          31.230525
+        ]
+      },
+      "properties": {
+        "city": "上海",
+        "name": "盛赫游戏",
+        "url": "http://www.shengheyouxi.com",
+        "schedule": "大小周",
+        "evidence": [
+          "https://www.zhipin.com/gongsi/c57418b66b0cf3bf0nd52928.html?ka=brand_list_company_9"
+        ],
+        "color": "#ffab40",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.473667,
+          31.230525
+        ]
+      },
+      "properties": {
+        "city": "上海",
+        "name": "砸立",
+        "url": "https://m.eyee.com/",
+        "schedule": "996",
+        "evidence": [
+          "https://www.kanzhun.com/gsr5728610tl526.html?ka=review-label2"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.413969,
+          31.173496
+        ]
+      },
+      "properties": {
+        "city": "上海",
+        "name": "游族网络",
+        "url": "https://www.youzu.com/",
+        "schedule": "996",
+        "evidence": [
+          "https://www.zhihu.com/question/22411680?sort=created"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.473667,
+          31.230525
+        ]
+      },
+      "properties": {
+        "city": "上海",
+        "name": "蝴蝶互动",
+        "url": "http://hoodinn.hgame.com/default/index",
+        "schedule": "966",
+        "evidence": [
+          "https://www.zhihu.com/question/40858342/answer/616999472"
+        ],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.523067,
+          30.473901
+        ]
+      },
+      "properties": {
+        "city": "上海",
+        "name": "上海联影医疗科技有限公司",
+        "url": "https://www.united-imaging.com/cn/home/",
+        "schedule": "996、无加班费",
+        "evidence": [
+          "https://www.kanzhun.com/pl6045694.html",
+          "https://bbs.csdn.net/topics/380214818",
+          "https://www.kanzhun.com/pl6212987.html"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.841682,
+          34.529682
+        ]
+      },
+      "properties": {
+        "city": "上海",
+        "name": "依图网络科技有限公司",
+        "url": "http://www.yitutech.com/",
+        "schedule": "996",
+        "evidence": [
+          "https://www.zhihu.com/question/300132949/answer/606529193"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.693958,
+          31.195002
+        ]
+      },
+      "properties": {
+        "city": "上海",
+        "name": "饿了么",
+        "url": "https://www.ele.me/",
+        "schedule": "996 or 997",
+        "evidence": [
+          "https://www.kanzhun.com/gsr1879439.html?ka=com-blocker1-review#co_tab"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.473667,
+          31.230525
+        ]
+      },
+      "properties": {
+        "city": "上海",
+        "name": "德邦物流",
+        "url": "https://www.deppon.com/",
+        "schedule": "996",
+        "evidence": [
+          "https://www.kanzhun.com/gsr16378tl56.html?ka=review-label9"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.689517,
+          30.869529
+        ]
+      },
+      "properties": {
+        "city": "上海",
+        "name": "兴业数字金融服务",
+        "url": "www.cibfintech.com/",
+        "schedule": "996",
+        "evidence": [
+          "https://www.kanzhun.com/gsr6355543tl526.html?ka=review-label4"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.473667,
+          31.230525
+        ]
+      },
+      "properties": {
+        "city": "上海",
+        "name": "小红书",
+        "url": "https://www.xiaohongshu.com/",
+        "schedule": "1095",
+        "evidence": [
+          "https://www.kanzhun.com/gsr1950189.html?ka=com-blocker1-review#co_tab"
+        ],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.473667,
+          31.230525
+        ]
+      },
+      "properties": {
+        "city": "上海",
+        "name": "依图科技",
+        "url": "https://www.yitutech.com/",
+        "schedule": "996",
+        "evidence": [
+          "https://www.kanzhun.com/gsr1669492tl526.html?ka=review-label13"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.847474,
+          28.297959
+        ]
+      },
+      "properties": {
+        "city": "上海",
+        "name": "上海壹米滴答供应链管理有限公司",
+        "url": "https://www.yimidida.com",
+        "schedule": "大小周",
+        "evidence": [],
+        "color": "#ffab40",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.481022,
+          20.024071
+        ]
+      },
+      "properties": {
+        "city": "上海",
+        "name": "金杜律师事务所",
+        "url": "https://www.kwm.com/zh/cn",
+        "schedule": "早10晚6但基本9点以后下班，周末给任务，请假给任务",
+        "evidence": [
+          "https://www.kanzhun.com/gsr14366.html"
+        ],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.925857,
+          27.680907
+        ]
+      },
+      "properties": {
+        "city": "上海",
+        "name": "上海鱼泡泡信息科技有限公司",
+        "url": "https://www.yupaopao.com//",
+        "schedule": "996",
+        "evidence": [
+          "https://maimai.cn/web/gossip_detail?encode_id=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MjA4NjEwNjcsImlhdCI6MTU1NDk1MDU0OX0.Hd0uP3y9GMnN1OA8fhV0xvCQKT-GBQ33BzUmT1CCavk"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.512408,
+          31.282234
+        ]
+      },
+      "properties": {
+        "city": "上海",
+        "name": "掌门一对一教育有限公司",
+        "url": "https://www.zhangmen.com/",
+        "schedule": "大小周",
+        "evidence": [
+          "https://www.kanzhun.com/pl7018849.html"
+        ],
+        "color": "#ffab40",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.473667,
+          31.230525
+        ]
+      },
+      "properties": {
+        "city": "上海",
+        "name": "七牛云",
+        "url": "https://www.qiniu.com/",
+        "schedule": "995、裁员",
+        "evidence": [
+          "https://www.kanzhun.com/pl7147841.html?ka=comreview-result1"
+        ],
+        "color": "#ffd740",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.80025,
+          22.679328
+        ]
+      },
+      "properties": {
+        "city": "上海",
+        "name": "邻趣网络有限公司",
+        "url": "https://linjia.me",
+        "schedule": "995",
+        "evidence": [],
+        "color": "#ffd740",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.751884,
+          23.021016
+        ]
+      },
+      "properties": {
+        "city": "东莞",
+        "name": "步步高",
+        "url": "www.gdbbk.com/",
+        "schedule": "8106 ！",
+        "evidence": [
+          "https://www.kanzhun.com/gsr3153tl56.html?ka=review-label12"
+        ],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.16764,
+          22.900678
+        ]
+      },
+      "properties": {
+        "city": "佛山",
+        "name": "美的集团",
+        "url": "https://www.midea.cn/",
+        "schedule": "996大小周",
+        "evidence": [
+          "https://www.kanzhun.com/gsr7884tl56.html?ka=review-label14"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.639226,
+          39.924131
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "京东",
+        "url": "https://www.jd.com",
+        "schedule": "995",
+        "evidence": [
+          "http://tech.163.com/19/0312/13/EA2QGIOK00097U7R.html"
+        ],
+        "color": "#ffd740",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.407387,
+          39.904179
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "58同城",
+        "url": "https://www.58.com",
+        "schedule": "996",
+        "evidence": [
+          "http://finance.cnr.cn/gs/20160901/t20160901_523105136.shtml",
+          "https://www.kanzhun.com/gsr10329.html?ka=com-blocker1-review#co_tab"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.407387,
+          39.904179
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "途家网",
+        "url": "https://www.tujia.com",
+        "schedule": "897",
+        "evidence": [
+          "https://www.tujia.xyz/"
+        ],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.341752,
+          39.966228
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "字节跳动",
+        "url": "https://bytedance.com",
+        "schedule": "996",
+        "evidence": [
+          "https://www.kanzhun.com/gsr5622411tl56.html",
+          "https://www.kanzhun.com/pl6583181.html",
+          "https://www.sohu.com/a/256795805_231667"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.407387,
+          39.904179
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "用友",
+        "url": "http://www.yonyou.com/",
+        "schedule": "997",
+        "evidence": [
+          "https://www.zhihu.com/question/26683235"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.407387,
+          39.904179
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "神策数据",
+        "url": "https://www.sensorsdata.cn/",
+        "schedule": "大小周",
+        "evidence": [
+          "https://www.kanzhun.com/pl6409927.html"
+        ],
+        "color": "#ffab40",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.407387,
+          39.904179
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "中软国际",
+        "url": "http://www.chinasofti.com/",
+        "schedule": "996",
+        "evidence": [
+          "https://jobs.zhaopin.com/CC508620126J00303154805.htm"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.407387,
+          39.904179
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "柯莱特",
+        "url": "http://www.camelotchina.com/",
+        "schedule": "996",
+        "evidence": [
+          "https://jobs.zhaopin.com/CC120179637J00117070515.htm"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.407387,
+          39.904179
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "高伟达",
+        "url": "http://www.git.com.cn/",
+        "schedule": "996",
+        "evidence": [
+          "https://jobs.zhaopin.com/CC120702341J00114014810.htm"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.407387,
+          39.904179
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "霁云科技",
+        "url": "https://xin.baidu.com/detail/compinfo?pid=xlTM-TogKuTwdr2zNtf0Zpjhxx2gQd9FZQmd&from=ps",
+        "schedule": "996",
+        "evidence": [
+          "https://www.zhipin.com/gongsi/2c08264377f4a5c61nx739i-Fw~~.html?ka=search_rcmd_company_2c08264377f4a5c61nx739i-Fw~~"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.454118,
+          40.103836
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "北京关键科技股份有限公司",
+        "url": "http://www.keyware.com.cn/",
+        "schedule": "986",
+        "evidence": [],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.407387,
+          39.904179
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "首约科技（北京）有限公司",
+        "url": "https://www.01zhuanche.com/",
+        "schedule": "996",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.445827,
+          39.970569
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "Boss直聘(北京华品博睿网络技术有限公司)",
+        "url": "https://www.zhipin.com/",
+        "schedule": "大小周",
+        "evidence": [],
+        "color": "#ffab40",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.407387,
+          39.904179
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "北京游奕互动软件有限公司",
+        "url": "http://www.uegame.com/",
+        "schedule": "986",
+        "evidence": [],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.373425,
+          39.912325
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "小米",
+        "url": "https://www.mi.com",
+        "schedule": "10106",
+        "evidence": [
+          "https://www.kanzhun.com/gsr347791.html?ka=com-blocker1-review#co_tab"
+        ],
+        "color": "#ffd740",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.407387,
+          39.904179
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "亚信(AsiaInfo)",
+        "url": "https://www.asiainfo.com",
+        "schedule": "996",
+        "evidence": [
+          "https://www.kanzhun.com/gsr19887tl56.html?ka=review-label13"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.46892,
+          40.021344
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "猎聘网",
+        "url": "https://www.liepin.com/",
+        "schedule": "996",
+        "evidence": [
+          "https://www.kanzhun.com/gsr1087027.html?ka=com-blocker1-review#co_tab"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.407387,
+          39.904179
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "百度",
+        "url": "https://www.baidu.com/",
+        "schedule": "996",
+        "evidence": [
+          "https://www.kanzhun.com/gsr11514tl56.html?ka=review-label17"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.417255,
+          39.899062
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "便利蜂",
+        "url": "https://www.bianlifeng.com/",
+        "schedule": "10105",
+        "evidence": [
+          "https://www.kanzhun.com/gsr6351491tl526.html?ka=review-label8"
+        ],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.407387,
+          39.904179
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "VIPKID",
+        "url": "https://www.vipkid.com.cn/",
+        "schedule": "10106",
+        "evidence": [
+          "https://www.kanzhun.com/gsr5616047tl56.html?ka=review-label14"
+        ],
+        "color": "#ffd740",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.407387,
+          39.904179
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "天眼查",
+        "url": "https://www.tianyancha.com/",
+        "schedule": "996",
+        "evidence": [
+          "https://www.kanzhun.com/gsr5681112tl526.html?ka=review-label4"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.954187,
+          31.924808
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "去哪儿网",
+        "url": "https://www.qunar.com/",
+        "schedule": "10106",
+        "evidence": [
+          "https://www.kanzhun.com/gsr61692tl56.html?ka=review-label13"
+        ],
+        "color": "#ffd740",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.407387,
+          39.904179
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "云鸟科技",
+        "url": "https://www.yunniao.cn/",
+        "schedule": "996",
+        "evidence": [
+          "https://www.kanzhun.com/gsr2477689tl56.html?ka=review-label3"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.407387,
+          39.904179
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "iCourt",
+        "url": "www.icourt.cc/",
+        "schedule": "996 or 10116",
+        "evidence": [
+          "https://www.kanzhun.com/gsr5731719tl526.html?ka=review-label5"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.417824,
+          39.921409
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "初见科技",
+        "url": "www.chujian.com/",
+        "schedule": "995",
+        "evidence": [
+          "https://www.kanzhun.com/gsr2031621.html?ka=com1-review"
+        ],
+        "color": "#ffd740",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.984606,
+          40.474309
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "作业帮",
+        "url": "https://www.zybang.com/",
+        "schedule": "大小周",
+        "evidence": [
+          "https://www.kanzhun.com/pl6288762.html"
+        ],
+        "color": "#ffab40",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.407387,
+          39.904179
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "数美科技",
+        "url": "https://www.ishumei.com/",
+        "schedule": "大小周，加班",
+        "evidence": [
+          "https://www.zhihu.com/question/290696102"
+        ],
+        "color": "#ffab40",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.407387,
+          39.904179
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "快方送药",
+        "url": "http://www.kfyao.com/",
+        "schedule": "996",
+        "evidence": [
+          "https://www.kanzhun.com/pl5675303.html"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.407387,
+          39.904179
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "快陪练",
+        "url": "https://www.kuaipeilian.com",
+        "schedule": "996",
+        "evidence": [
+          "https://pic.superbed.cn/item/5cad617f3a213b0417f7cc2a"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.057939,
+          22.543527
+        ]
+      },
+      "properties": {
+        "city": "深圳",
+        "name": "广东虚拟现实科技有限公司(Ximmerse)",
+        "url": "https://www.ximmerse.com/",
+        "schedule": "996",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.066301,
+          30.572961
+        ]
+      },
+      "properties": {
+        "city": "成都",
+        "name": "成都二次元动漫有限公司",
+        "url": "https://www.kanman.com/",
+        "schedule": "996",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.337391,
+          39.97905
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "东华软件股份公司",
+        "url": "http://www.dhcc.com.cn/",
+        "schedule": "996",
+        "evidence": [
+          "https://koubei.baidu.com/s/xt.dhcc.com.cn?from=ps_pc1"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.201509,
+          39.085318
+        ]
+      },
+      "properties": {
+        "city": "天津",
+        "name": "易思维(杭州/天津)科技有限公司",
+        "url": "http://www.tjisv.com/",
+        "schedule": "996",
+        "evidence": [
+          "https://www.kanzhun.com/pl6228054.html"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.404986,
+          23.156271
+        ]
+      },
+      "properties": {
+        "city": "长沙",
+        "name": "湖南创发科技有限公司",
+        "url": "http://www.transfar.com/",
+        "schedule": "996",
+        "evidence": [
+          "https://www.kanzhun.com/gso238619.html?ka=com1-title",
+          "http://www.cnblogs.com/rawman/p/3401579.html"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.601391,
+          22.347277
+        ]
+      },
+      "properties": {
+        "city": "珠海",
+        "name": "金山软件",
+        "url": "http://www.kingsoft.com/",
+        "schedule": "996/9106",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.360011,
+          39.900244
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "信美人寿相互保险社",
+        "url": "https://www.trustlife.com/",
+        "schedule": "996",
+        "evidence": [
+          "https://www.kanzhun.com/gsr5723919.html?ka=com-blocker1-review",
+          "https://www.kanzhun.com/gsr6603074.html?ka=com1-review"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.549656,
+          37.870451
+        ]
+      },
+      "properties": {
+        "city": "太原",
+        "name": "辉讯网络技术有限公司",
+        "url": "http://www.7zy.net/",
+        "schedule": "996",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.080469,
+          24.47634
+        ]
+      },
+      "properties": {
+        "city": "上海",
+        "name": "上海基分文化传播有限公司",
+        "url": "https://www.qutoutiao.net//",
+        "schedule": "995+大小周",
+        "evidence": [
+          "https://www.qutoutiao.net/"
+        ],
+        "color": "#ffab40",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.925857,
+          27.680907
+        ]
+      },
+      "properties": {
+        "city": "上海",
+        "name": "上海鱼泡泡信息科技有限公司",
+        "url": "https://www.yupaopao.com//",
+        "schedule": "996",
+        "evidence": [
+          "https://maimai.cn/web/gossip_detail?encode_id=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MjA4NjEwNjcsImlhdCI6MTU1NDk1MDU0OX0.Hd0uP3y9GMnN1OA8fhV0xvCQKT-GBQ33BzUmT1CCavk"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.205937,
+          30.55974
+        ]
+      },
+      "properties": {
+        "city": "武汉",
+        "name": "武汉星云海数字科技股份有限公司",
+        "url": "http://www.scotec.net/",
+        "schedule": "996",
+        "evidence": [
+          "https://www.kanzhun.com/gso5662099.html"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.653991,
+          24.614159
+        ]
+      },
+      "properties": {
+        "city": "福建",
+        "name": "福建浔兴拉链科技股份有限公司",
+        "url": "http://www.sbszipper.com/",
+        "schedule": "单休",
+        "evidence": [],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.512408,
+          31.282234
+        ]
+      },
+      "properties": {
+        "city": "上海",
+        "name": "掌门一对一教育有限公司",
+        "url": "https://www.zhangmen.com/",
+        "schedule": "大小周",
+        "evidence": [
+          "https://www.kanzhun.com/pl7018849.html"
+        ],
+        "color": "#ffab40",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.393973,
+          22.508857
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "北京中广创思文化传播有限公司",
+        "url": "http://www.cbct.cn/",
+        "schedule": "996/9107",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.407387,
+          39.904179
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "易车网",
+        "url": "http://beijing.bitauto.com/",
+        "schedule": "996",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.407387,
+          39.904179
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "北京今始科技有限公司",
+        "url": "https://linkface.cn/",
+        "schedule": "996、恶意裁员",
+        "evidence": [
+          "https://www.zhihu.com/question/300467880/answer/532121441"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.306659,
+          40.039513
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "北京数码视讯科技股份有限公司",
+        "url": "http://www.sumavision.com/",
+        "schedule": "996，大小周",
+        "evidence": [
+          "https://www.kanzhun.com/pl474513.html"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.307113,
+          39.983091
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "北京声智科技有限公司",
+        "url": "http://www.soundai.com/",
+        "schedule": "996",
+        "evidence": [
+          "https://www.kanzhun.com/gsr5680797tl526.html?ka=review-label1"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.407387,
+          39.904179
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "蛋壳公寓",
+        "url": "https://www.danke.com/",
+        "schedule": "10106/10107",
+        "evidence": [
+          "https://www.kanzhun.com/gsm5710300.html?ka=com-blocker1-interview#co_tab%EF%BC%89"
+        ],
+        "color": "#ffd740",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.575769,
+          39.894584
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "北京掌握时代科技股份有限公司",
+        "url": "http://www.mastertimes.net/",
+        "schedule": "996",
+        "evidence": [
+          "https://www.kanzhun.com/pl7093100.html?ka=review-item-ckqw"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.407387,
+          39.904179
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "快手",
+        "url": "https://kuaishou.com",
+        "schedule": "996",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.407387,
+          39.904179
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "51talk",
+        "url": "http://www.51talk.com/",
+        "schedule": "早11晚10一周6天，领导不高兴就不放假或者让你晚上12点走",
+        "evidence": [
+          "https://www.kanzhun.com/question/769860.html"
+        ],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.647825,
+          31.932487
+        ]
+      },
+      "properties": {
+        "city": "南京",
+        "name": "苏宁",
+        "url": "http://www.suning.com",
+        "schedule": "996",
+        "evidence": [
+          "https://www.zhihu.com/question/314152843/answer/613149536"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.08891,
+          24.479627
+        ]
+      },
+      "properties": {
+        "city": "厦门",
+        "name": "4399游戏",
+        "url": "www.4399.com/",
+        "schedule": "10106",
+        "evidence": [
+          "https://www.kanzhun.com/gsr3284tl56.html?ka=review-label13"
+        ],
+        "color": "#ffd740",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.08891,
+          24.479627
+        ]
+      },
+      "properties": {
+        "city": "厦门",
+        "name": "联生活科技集团",
+        "url": "https://www.lsh1688.cn/",
+        "schedule": "大小周+经常加班+拖欠工资+不缴纳一金",
+        "evidence": [
+          "https://www.zhipin.com/gongsi/7fd7ad361f562fae1nZ82Nm4ElY~.html?ka=company-intro"
+        ],
+        "color": "#ffab40",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.33374,
+          23.301049
+        ]
+      },
+      "properties": {
+        "city": "嘉兴/广州",
+        "name": "蓝鸽集团有限公司",
+        "url": "http://www.chinalancoo.com",
+        "schedule": "每月仅加班需满50小时",
+        "evidence": [
+          "https://www.zhihu.com/question/40782949"
+        ],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.614786,
+          38.913962
+        ]
+      },
+      "properties": {
+        "city": "大连",
+        "name": "大连东软集团",
+        "url": "https://www.neusoft.com/cn/",
+        "schedule": "9106",
+        "evidence": [
+          "https://www.kanzhun.com/pl5758283.html?ka=review-item2",
+          "https://www.kanzhun.com/pl5892120.html?ka=review-item10"
+        ],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54573,
+          38.888876
+        ]
+      },
+      "properties": {
+        "city": "大连",
+        "name": "大连同方软银科技股份有限公司",
+        "url": "http://www.tfrunning.com.cn",
+        "schedule": "996",
+        "evidence": [
+          "https://www.kanzhun.com/pl5661184.html?ka=review-item6",
+          "https://www.kanzhun.com/pl7170642.html?ka=review-item-ckqw"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.399095,
+          39.165223
+        ]
+      },
+      "properties": {
+        "city": "天津",
+        "name": "长城汽车股份有限公司天津园区",
+        "url": "http://www.gwm.com.cn/",
+        "schedule": "大小周",
+        "evidence": [
+          "http://www.hljsxy.org.cn/website/sites/common/readwNews.aspx?JpkId=1&id=13289"
+        ],
+        "color": "#ffab40",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.201509,
+          39.085318
+        ]
+      },
+      "properties": {
+        "city": "天津",
+        "name": "小黑鱼",
+        "url": "https://blackfish.cn",
+        "schedule": "996",
+        "evidence": [
+          "https://m.kanzhun.com/gsr6771936.html"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.923082,
+          38.949485
+        ]
+      },
+      "properties": {
+        "city": "天津",
+        "name": "天津天地伟业科技有限公司",
+        "url": "http://tideway.com.cn/",
+        "schedule": "强制996",
+        "evidence": [
+          "https://www.kanzhun.com/gsr1634154tl56.html?ka=review-label11"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.201509,
+          39.085318
+        ]
+      },
+      "properties": {
+        "city": "天津",
+        "name": "易思维(杭州/天津)科技有限公司",
+        "url": "http://www.tjisv.com/",
+        "schedule": "996",
+        "evidence": [
+          "https://www.kanzhun.com/pl6228054.html"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.549656,
+          37.870451
+        ]
+      },
+      "properties": {
+        "city": "太原",
+        "name": "辉讯网络技术有限公司",
+        "url": "http://www.7zy.net/",
+        "schedule": "996",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.095876,
+          36.82954
+        ]
+      },
+      "properties": {
+        "city": "山东淄博",
+        "name": "山东兆物网络技术股份有限公司",
+        "url": "http://www.imegaware.com/",
+        "schedule": "8106",
+        "evidence": [
+          "https://www.kanzhun.com/pl6588029.html"
+        ],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.408323,
+          23.164835
+        ]
+      },
+      "properties": {
+        "city": "广州",
+        "name": "小鹏汽车(XPENG Motors)",
+        "url": "http://www.xiaopeng.com/",
+        "schedule": "大小周、大会战（996）、各部门的上班时间进行排名",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.264499,
+          23.130061
+        ]
+      },
+      "properties": {
+        "city": "广州",
+        "name": "鲸鱼游戏",
+        "url": "http://www.adjingyu.com/",
+        "schedule": "996",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.512332,
+          23.152798
+        ]
+      },
+      "properties": {
+        "city": "广州",
+        "name": "多益网络",
+        "url": "https://www.duoyi.com",
+        "schedule": "9106",
+        "evidence": [
+          "https://www.kanzhun.com/gsr1365983tl56.html",
+          "https://www.zhihu.com/question/22713470/answer/145287600"
+        ],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.372221,
+          23.126369
+        ]
+      },
+      "properties": {
+        "city": "广州",
+        "name": "网易游戏",
+        "url": "https://game.163.com/",
+        "schedule": "10106",
+        "evidence": [
+          "https://www.kanzhun.com/gsr15379tl56.html?ka=review-label14"
+        ],
+        "color": "#ffd740",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.264499,
+          23.130061
+        ]
+      },
+      "properties": {
+        "city": "广州",
+        "name": "三七互娱",
+        "url": "www.37wan.net/",
+        "schedule": "9115 9116?",
+        "evidence": [
+          "https://www.kanzhun.com/gsr1906275.html?ka=com-blocker1-review#co_tab"
+        ],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.219452,
+          23.397897
+        ]
+      },
+      "properties": {
+        "city": "广州",
+        "name": "广州创思信息技术有限公司（9377 游戏）",
+        "url": "https://www.9377.com",
+        "schedule": "大小周加班",
+        "evidence": [
+          "https://www.zhihu.com/question/53318899"
+        ],
+        "color": "#ffab40",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.070238,
+          30.548761
+        ]
+      },
+      "properties": {
+        "city": "成都",
+        "name": "tap4fun",
+        "url": "https://www.tap4fun.com/",
+        "schedule": "996",
+        "evidence": [
+          "https://www.kanzhun.com/gsr59860tl56.html?ka=review-label15"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.066301,
+          30.572961
+        ]
+      },
+      "properties": {
+        "city": "成都",
+        "name": "成都二次元动漫有限公司",
+        "url": "https://www.kanman.com/",
+        "schedule": "996",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.038206,
+          30.594912
+        ]
+      },
+      "properties": {
+        "city": "成都",
+        "name": "成都索贝数码科技股份有限公司",
+        "url": "http://www.sobey.com/",
+        "schedule": "996 无倒休",
+        "evidence": [
+          "https://www.kanzhun.com/pl7169544.html"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.52022,
+          39.888243
+        ]
+      },
+      "properties": {
+        "city": "河北秦皇岛",
+        "name": "河北东软软件有限公司",
+        "url": "https://www.neuqsoft.com/",
+        "schedule": "8.30-21,副总亲自回复邮件加班",
+        "evidence": [],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.105922,
+          31.022948
+        ]
+      },
+      "properties": {
+        "city": "成都",
+        "name": "成都未知未来科技有限公司",
+        "url": "https://cdxfuture.com/xf/",
+        "schedule": "大小周、拖欠工资，裁员无补偿",
+        "evidence": [],
+        "color": "#ffab40",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.209903,
+          30.246566
+        ]
+      },
+      "properties": {
+        "city": "杭州",
+        "name": "阿里巴巴",
+        "url": "https://www.alibabagroup.com/",
+        "schedule": "996",
+        "evidence": [
+          "https://kuaibao.qq.com/s/20180612A1FAPU00",
+          "http://m.sohu.com/a/307564633_241241",
+          "https://v.qq.com/x/page/h0860wwt0xl.html"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.549879,
+          31.226638
+        ]
+      },
+      "properties": {
+        "city": "杭州",
+        "name": "蚂蚁金服",
+        "url": "https://www.antfin.com/",
+        "schedule": "9106",
+        "evidence": [
+          "https://t.cj.sina.com.cn/articles/view/6680234487/18e2c49f700100dq3q"
+        ],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.209903,
+          30.246566
+        ]
+      },
+      "properties": {
+        "city": "杭州",
+        "name": "有赞",
+        "url": "https://www.youzan.com",
+        "schedule": "996",
+        "evidence": [
+          "http://www.linkshop.com.cn/web/archives/2019/418163.shtml"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.209903,
+          30.246566
+        ]
+      },
+      "properties": {
+        "city": "杭州",
+        "name": "智贝科技",
+        "url": "https://www.zhipin.com/gongsi/09aefd7a9d507c2f1nd82tu9Ew~~.html",
+        "schedule": "强制996、歧视程序员",
+        "evidence": [
+          "https://baijiahao.baidu.com/s?id=1627625016599313128"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.046178,
+          30.292359
+        ]
+      },
+      "properties": {
+        "city": "杭州",
+        "name": "同花顺",
+        "url": "http://www.10jqka.com.cn/",
+        "schedule": "大小周、加班",
+        "evidence": [
+          "https://www.kanzhun.com/pl6896401.html"
+        ],
+        "color": "#ffab40",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.223028,
+          30.210116
+        ]
+      },
+      "properties": {
+        "city": "杭州",
+        "name": "杭州海康威视数字技术股份有限公司",
+        "url": "https://www.hikvision.com/cn/",
+        "schedule": "996",
+        "evidence": [
+          "https://www.kanzhun.com/pl6448138.html"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.172581,
+          30.184058
+        ]
+      },
+      "properties": {
+        "city": "杭州",
+        "name": "浙江大华技术股份有限公司",
+        "url": "https://www.dahuatech.com/",
+        "schedule": "加班",
+        "evidence": [
+          "http://www.7360.cc/Review-80253",
+          "https://www.kanzhun.com/pl6360251.html"
+        ],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.231075,
+          30.207191
+        ]
+      },
+      "properties": {
+        "city": "杭州",
+        "name": "浙江宇视科技有限公司",
+        "url": "http://fenxiao.uniview.com/",
+        "schedule": "大小周加班",
+        "evidence": [
+          "https://www.kanzhun.com/gsmsh10805642.html"
+        ],
+        "color": "#ffab40",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.209903,
+          30.246566
+        ]
+      },
+      "properties": {
+        "city": "杭州",
+        "name": "网易考拉海购",
+        "url": "https://www.kaola.com/",
+        "schedule": "996",
+        "evidence": [
+          "https://www.kanzhun.com/gsr5686940tl526.html?ka=review-label14"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.190049,
+          36.211376
+        ]
+      },
+      "properties": {
+        "city": "杭州",
+        "name": "盘石信息科技有限公司",
+        "url": "http://www.adyun.com/zh-cn/index.html",
+        "schedule": "996/9106",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.841682,
+          34.529682
+        ]
+      },
+      "properties": {
+        "city": "杭州",
+        "name": "悠书网络科技有限公司",
+        "url": "http://www.77ad.com/",
+        "schedule": "9 6.5 5/每周强制加班8小时,每月不达标辞退",
+        "evidence": [],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.30332,
+          30.66541
+        ]
+      },
+      "properties": {
+        "city": "武汉",
+        "name": "武汉小码联城科技有限公司",
+        "url": "http://www.i-xiaoma.com",
+        "schedule": "995",
+        "evidence": [],
+        "color": "#ffd740",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.304569,
+          30.593354
+        ]
+      },
+      "properties": {
+        "city": "武汉",
+        "name": "氪细胞",
+        "url": "http://www.timing360.com/",
+        "schedule": "996",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.319625,
+          30.471478
+        ]
+      },
+      "properties": {
+        "city": "武汉",
+        "name": "武汉精臣智慧标识科技有限公司",
+        "url": "http://www.jc2008.com/",
+        "schedule": "966",
+        "evidence": [],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.205937,
+          30.55974
+        ]
+      },
+      "properties": {
+        "city": "武汉",
+        "name": "武汉星云海数字科技股份有限公司",
+        "url": "http://www.scotec.net/",
+        "schedule": "996",
+        "evidence": [
+          "https://www.kanzhun.com/gso5662099.html"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.410976,
+          30.480956
+        ]
+      },
+      "properties": {
+        "city": "武汉",
+        "name": "武汉斗鱼网络科技有限公司",
+        "url": "https://www.douyu.com/",
+        "schedule": "每天至少加班两小时，拖欠大量工资，无加班费",
+        "evidence": [
+          "https://m.kanzhun.com/pl6708460.html"
+        ],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.029712,
+          36.224624
+        ]
+      },
+      "properties": {
+        "city": "泰安",
+        "name": "浪潮软件",
+        "url": "www.inspur.com/",
+        "schedule": "6 * 12 ！",
+        "evidence": [
+          "https://www.kanzhun.com/gsr49271tl56.html?ka=review-label10"
+        ],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.531103,
+          36.825136
+        ]
+      },
+      "properties": {
+        "city": "济南",
+        "name": "山东国子软件股份有限公司",
+        "url": "http://www.googosoft.com/",
+        "schedule": "886",
+        "evidence": [
+          "https://www.kanzhun.com/pl6406106.html",
+          "https://www.kanzhun.com/gsr5619934tl56.html?ka=review-label4"
+        ],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.120128,
+          36.652069
+        ]
+      },
+      "properties": {
+        "city": "济南",
+        "name": "普联软件",
+        "url": "www.pansoft.com/",
+        "schedule": "8106",
+        "evidence": [
+          "https://www.kanzhun.com/gsr61725tl56.html?ka=review-label11"
+        ],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.057939,
+          22.543527
+        ]
+      },
+      "properties": {
+        "city": "深圳",
+        "name": "华为",
+        "url": "https://www.huawei.com/cn/",
+        "schedule": "9106",
+        "evidence": [
+          "http://focus.news.163.com/10/0921/15/6H460OOP00011SM9.html"
+        ],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.087052,
+          22.546886
+        ]
+      },
+      "properties": {
+        "city": "深圳",
+        "name": "大疆创新",
+        "url": "https://www.dji.com/cn",
+        "schedule": "996",
+        "evidence": [
+          "https://baijiahao.baidu.com/s?id=1619909152168711034&wfr=spider&for=pc"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.057939,
+          22.543527
+        ]
+      },
+      "properties": {
+        "city": "深圳",
+        "name": "深信服",
+        "url": "http://www.sangfor.com.cn",
+        "schedule": "9106",
+        "evidence": [
+          "https://www.v2ex.com/t/525495"
+        ],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.00244,
+          22.637828
+        ]
+      },
+      "properties": {
+        "city": "深圳",
+        "name": "跨越速运",
+        "url": "http://www.ky-express.com/",
+        "schedule": "大小周、<br>加班、裁员",
+        "evidence": [
+          "https://www.zhihu.com/question/312825261",
+          "https://www.zhihu.com/question/47203239/answer/643311492"
+        ],
+        "color": "#ffab40",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.057939,
+          22.543527
+        ]
+      },
+      "properties": {
+        "city": "深圳",
+        "name": "马上金融",
+        "url": "https://www.msxf.com/",
+        "schedule": "996",
+        "evidence": [
+          "https://www.kanzhun.com/pl5641018.html"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.057939,
+          22.543527
+        ]
+      },
+      "properties": {
+        "city": "深圳",
+        "name": "深圳市世纪纵横科技发展有限公司",
+        "url": "http://www.viothink.com/?tdsourcetag=s_pctim_aiomsg",
+        "schedule": "966、加班、拖延工资",
+        "evidence": [],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.408765,
+          37.780379
+        ]
+      },
+      "properties": {
+        "city": "深圳",
+        "name": "深圳市环球易购电子商务有限公司",
+        "url": "https://www.globalegrow.com/",
+        "schedule": "大小周、经常996、偶尔通宵",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.950541,
+          22.531757
+        ]
+      },
+      "properties": {
+        "city": "深圳",
+        "name": "腾讯",
+        "url": "https://www.tencent.com/zh-cn/index.html",
+        "schedule": "996",
+        "evidence": [
+          "https://www.kanzhun.com/gsr5855.html?ka=com-blocker1-review#co_tab"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.057939,
+          22.543527
+        ]
+      },
+      "properties": {
+        "city": "深圳",
+        "name": "VIVO",
+        "url": "https://www.vivo.com.cn/",
+        "schedule": "996大小周",
+        "evidence": [
+          "https://www.kanzhun.com/pl6139773.html?ka=review-item2"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.057939,
+          22.543527
+        ]
+      },
+      "properties": {
+        "city": "深圳",
+        "name": "房多多",
+        "url": "https://m.fangdd.com/",
+        "schedule": "996",
+        "evidence": [
+          "https://www.kanzhun.com/gsr2072113tl56.html?ka=review-label13"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.940301,
+          22.523012
+        ]
+      },
+      "properties": {
+        "city": "深圳",
+        "name": "万兴科技",
+        "url": "https://www.wondershare.cn/",
+        "schedule": "995",
+        "evidence": [
+          "https://www.kanzhun.com/gsr1682212tl56.html?ka=review-label12"
+        ],
+        "color": "#ffd740",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.057939,
+          22.543527
+        ]
+      },
+      "properties": {
+        "city": "深圳",
+        "name": "追一科技",
+        "url": "https://zhuiyi.ai/",
+        "schedule": "10106 疯狂加班",
+        "evidence": [
+          "https://www.kanzhun.com/gsr5693705.html?ka=com1-review"
+        ],
+        "color": "#ffd740",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.057939,
+          22.543527
+        ]
+      },
+      "properties": {
+        "city": "深圳",
+        "name": "深圳市猜猜城科技有限公司",
+        "url": "www.guesscity.net/",
+        "schedule": "996",
+        "evidence": [
+          "https://www.kanzhun.com/gsr6671156.html?ka=com1-review"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.84109,
+          40.001185
+        ]
+      },
+      "properties": {
+        "city": "深圳",
+        "name": "道通科技",
+        "url": "www.auteltech.cn/",
+        "schedule": "996",
+        "evidence": [
+          "https://www.kanzhun.com/gsr479390tl56.html?ka=review-label8"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.841682,
+          34.529682
+        ]
+      },
+      "properties": {
+        "city": "深圳",
+        "name": "尊豪网络科技有限公司",
+        "url": "www.szzunhao.com/",
+        "schedule": "每天10小时",
+        "evidence": [
+          "https://m.kanzhun.com/pl6818466.html?sid=kzapp&from=singlemessage"
+        ],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.057939,
+          22.543527
+        ]
+      },
+      "properties": {
+        "city": "深圳",
+        "name": "广东虚拟现实科技有限公司(Ximmerse)",
+        "url": "https://www.ximmerse.com/",
+        "schedule": "996",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.970804,
+          28.108872
+        ]
+      },
+      "properties": {
+        "city": "深圳",
+        "name": "边度网络科技（深圳）有限公司",
+        "url": "https://www.bindo.com/",
+        "schedule": "996",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.057939,
+          22.543527
+        ]
+      },
+      "properties": {
+        "city": "深圳",
+        "name": "微付充科技有限公司",
+        "url": "http://www.vfuchong.com/",
+        "schedule": "大小周， 每个月固定两天",
+        "evidence": [
+          "https://www.jobui.com/company/12488776/salary/"
+        ],
+        "color": "#ffab40",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.296977,
+          34.778006
+        ]
+      },
+      "properties": {
+        "city": "深圳",
+        "name": "深圳沈鼓测控技术有限公司",
+        "url": "http://www.shenguyun.com/",
+        "schedule": "提倡员工签署自愿加班协议",
+        "evidence": [],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.903294,
+          22.534462
+        ]
+      },
+      "properties": {
+        "city": "深圳",
+        "name": "深圳市前海手绘科技文化有限公司",
+        "url": "https://www.laihua.com/",
+        "schedule": "996连坐，如果有人迟到或请事假，全部门996一周",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.657214,
+          39.031304
+        ]
+      },
+      "properties": {
+        "city": "深圳/杭州",
+        "name": "华为外包",
+        "url": "https://www.kanzhun.com/gsr1439970.html",
+        "schedule": "大小周、加班、裁员",
+        "evidence": [
+          "https://www.zhihu.com/question/28517881"
+        ],
+        "color": "#ffab40",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.601391,
+          22.347277
+        ]
+      },
+      "properties": {
+        "city": "珠海",
+        "name": "金山软件",
+        "url": "http://www.kingsoft.com/",
+        "schedule": "996/9106",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.245862,
+          26.099444
+        ]
+      },
+      "properties": {
+        "city": "福州",
+        "name": "中富通集团股份有限公司",
+        "url": "http://www.zftii.com/",
+        "schedule": "宣扬马云996 随意要求员工加班",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.585294,
+          31.299758
+        ]
+      },
+      "properties": {
+        "city": "苏州",
+        "name": "顺舟智能",
+        "url": "http://www.shuncom.com",
+        "schedule": "996",
+        "evidence": [
+          "https://jobs.zhaopin.com/CC549324722J00346803701.htm"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.585294,
+          31.299758
+        ]
+      },
+      "properties": {
+        "city": "苏州",
+        "name": "苏州同思软件有限公司",
+        "url": "http://www.one-dream.com.cn/",
+        "schedule": "996、9106",
+        "evidence": [
+          "https://www.kanzhun.com/pl6983505.html?ka=comreview-showall2"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.731325,
+          31.249948
+        ]
+      },
+      "properties": {
+        "city": "苏州",
+        "name": "凌志软件股份有限公司",
+        "url": "http://www.linkstec.com/",
+        "schedule": "996，9106，9116",
+        "evidence": [
+          "https://www.kanzhun.com/gsr99810c50.html"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.641462,
+          31.418709
+        ]
+      },
+      "properties": {
+        "city": "苏州",
+        "name": "Momenta",
+        "url": "https://www.momenta.cn/",
+        "schedule": "996",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.404986,
+          23.156271
+        ]
+      },
+      "properties": {
+        "city": "长沙",
+        "name": "湖南创发科技有限公司",
+        "url": "http://www.transfar.com/",
+        "schedule": "996",
+        "evidence": [
+          "https://www.kanzhun.com/gso238619.html?ka=com1-title",
+          "http://www.cnblogs.com/rawman/p/3401579.html"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.382665,
+          36.066938
+        ]
+      },
+      "properties": {
+        "city": "青岛",
+        "name": "海尔集团",
+        "url": "http://www.haier.net/",
+        "schedule": "996",
+        "evidence": [
+          "https://www.zhihu.com/question/21895528"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.014581,
+          36.996554
+        ]
+      },
+      "properties": {
+        "city": "潍坊",
+        "name": "歌尔股份",
+        "url": "https://www.goertek.com/",
+        "schedule": "大小周、节假日遇单休从双休周调休",
+        "evidence": [],
+        "color": "#ffab40",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.838257,
+          34.20893
+        ]
+      },
+      "properties": {
+        "city": "西安",
+        "name": "中软国际科技服务有限公司",
+        "url": "http://www.chinasofti.com/",
+        "schedule": "996",
+        "evidence": [
+          "https://jobs.zhaopin.com/CC508620126J00303154805.htm"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.057939,
+          22.543527
+        ]
+      },
+      "properties": {
+        "city": "深圳",
+        "name": "紫优科技",
+        "url": "https://www.zhipin.com/gongsir/7610a4892e11cc781XZ_09i1FA~~.html?ka=company-jobs",
+        "schedule": "9116",
+        "evidence": [],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.532919,
+          38.866171
+        ]
+      },
+      "properties": {
+        "city": "大连",
+        "name": "大连大连海大赢海科技有限公司",
+        "url": "http://www.yinghaikeji.com/",
+        "schedule": "强制996、大小周",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.473667,
+          31.230525
+        ]
+      },
+      "properties": {
+        "city": "上海/西安",
+        "name": "华勤通讯技术有限公司",
+        "url": "http://www.huaqin.com/",
+        "schedule": "996",
+        "evidence": [
+          "https://www.kanzhun.com/gso238619.html?ka=com1-title",
+          "https://www.zhihu.com/question/49628909/answer/522467068"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.017551,
+          36.681117
+        ]
+      },
+      "properties": {
+        "city": "深圳",
+        "name": "深圳市蓝色海洋教育科技有限公司",
+        "url": "",
+        "schedule": "996",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.350605,
+          23.178226
+        ]
+      },
+      "properties": {
+        "city": "广州",
+        "name": "广州明动软件股份有限公司",
+        "url": "http://www.minstone.com.cn/",
+        "schedule": "9106",
+        "evidence": [],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.327537,
+          22.816659
+        ]
+      },
+      "properties": {
+        "city": "广西",
+        "name": "广西安辰信息产业股份有限公司",
+        "url": "",
+        "schedule": "大小周",
+        "evidence": [],
+        "color": "#ffab40",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.057939,
+          22.543527
+        ]
+      },
+      "properties": {
+        "city": "深圳",
+        "name": "深圳市康拓普信息技术有限公司",
+        "url": "https://www.szcomtop.com//",
+        "schedule": "9127",
+        "evidence": [],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.122664,
+          36.700953
+        ]
+      },
+      "properties": {
+        "city": "山东",
+        "name": "潍柴动力股份有限公司/潍柴集团",
+        "url": "",
+        "schedule": "无双休",
+        "evidence": [
+          "http://www.zhihu.com/question/309984979",
+          "http://www.zhihu.com/question/270906947"
+        ],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.762441,
+          36.378022
+        ]
+      },
+      "properties": {
+        "city": "深圳",
+        "name": "深圳市金泰长丰科技有限公司",
+        "url": "",
+        "schedule": "大小周、无加班工",
+        "evidence": [
+          "https://www.kanzhun.com/gsr6472604.html"
+        ],
+        "color": "#ffab40",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.164349,
+          29.800133
+        ]
+      },
+      "properties": {
+        "city": "重庆",
+        "name": "重庆力华亘田科技有限公司",
+        "url": "",
+        "schedule": "886计件，实际两周放一天假，没有加班费，法定假缩水。计时大小周，加班费不分法定假与周末，一律7元每小时。",
+        "evidence": [],
+        "color": "#ffab40",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.251786,
+          26.103416
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "北京永信至诚科技股份有限公司",
+        "url": "",
+        "schedule": "正常965，但强制每月加三天班，每周末加半天班",
+        "evidence": [],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.459783,
+          39.949586
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "美团",
+        "url": "",
+        "schedule": "10 10 5",
+        "evidence": [
+          "https://www.kanzhun.com/pl469105.html",
+          "https://blog.csdn.net/weixin_43245088/article/details/85635423",
+          "https://finance.ifeng.com/a/20170505/15358688_0.shtml"
+        ],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.585294,
+          31.299758
+        ]
+      },
+      "properties": {
+        "city": "苏州",
+        "name": "玩友时代",
+        "url": "",
+        "schedule": "995, 排班996值班;无加班工资，名义调休，真调休的话领导各种不爽",
+        "evidence": [
+          "https://www.kanzhun.com/gsr5632014tl56.html"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.407387,
+          39.904179
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "赞同科技",
+        "url": "",
+        "schedule": "997, 无加班工资",
+        "evidence": [
+          "https://www.kanzhun.com/gsr37775.html",
+          "https://www.kanzhun.com/pl5666140.html"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.407387,
+          39.904179
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "网医纳康",
+        "url": "",
+        "schedule": "996，奋斗者协议",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.049105,
+          36.806384
+        ]
+      },
+      "properties": {
+        "city": "淄博",
+        "name": "淄博赢师教育有限公司",
+        "url": "",
+        "schedule": "老板随心所欲扣钱处罚，上下班无固定时间，出差无休息，强制加班，加班费只有几块钱甚至无加班费",
+        "evidence": [],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.407387,
+          39.904179
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "北京凯奇谷信息技术股份有限公司",
+        "url": "",
+        "schedule": "996",
+        "evidence": [
+          "https://m.kanzhun.com/pl6920611.html?sid=kzapp"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.057939,
+          22.543527
+        ]
+      },
+      "properties": {
+        "city": "深圳",
+        "name": "深圳航天信息",
+        "url": "",
+        "schedule": "976；大小周；完全没有加班工资，没有任何补助，加班时间计算在绩效中，每天没加班1小时扣绩效。",
+        "evidence": [],
+        "color": "#ffab40",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.889442,
+          31.984595
+        ]
+      },
+      "properties": {
+        "city": "南京",
+        "name": "江苏润恒物流发展有限公司（集团）",
+        "url": "",
+        "schedule": "8:30-20:30或10:30 无加班工资，不加班扣工资，扣押合同，不按合同发放13薪水，拖欠工资…",
+        "evidence": [
+          "https://www.zhihu.com/question/265367701"
+        ],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.053624,
+          30.505084
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "海尔优家智能科技（北京）有限公司",
+        "url": "",
+        "schedule": "不定期996或976，没有加班工资，或极少补偿；开始强制2个月，强制执行3个月，春节前后不能请假",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.788079,
+          29.706521
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "松鼠拼拼",
+        "url": "",
+        "schedule": "996",
+        "evidence": [
+          "https://www.lagou.com/gongsi/q211444.html",
+          "https://yanzhi.lagou.com/question/82537.html"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.796624,
+          32.059344
+        ]
+      },
+      "properties": {
+        "city": "南京",
+        "name": "车置宝",
+        "url": "",
+        "schedule": "996",
+        "evidence": [
+          "https://www.kanzhun.com/pl6252690.html"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.921291,
+          22.584235
+        ]
+      },
+      "properties": {
+        "city": "深圳",
+        "name": "深圳市艾森智能技术有限公司",
+        "url": "",
+        "schedule": "996，加班无工资，激励员工多加班。扬言说不加班不是的公司会死去。",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.005417,
+          30.285982
+        ]
+      },
+      "properties": {
+        "city": "杭州",
+        "name": "杭州数澜科技有限公司",
+        "url": "",
+        "schedule": "996",
+        "evidence": [
+          "https://www.kanzhun.com/gsr5709934.html",
+          "https://www.kanzhun.com/pl7182332.html",
+          "https://www.kanzhun.com/pl6556133.html"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54573,
+          38.888876
+        ]
+      },
+      "properties": {
+        "city": "大连",
+        "name": "大连同方软银科技股份有限公司",
+        "url": "http://www.tfrunning.com.cn",
+        "schedule": "996",
+        "evidence": [
+          "https://www.kanzhun.com/pl5661184.html?ka=review-item6",
+          "https://www.kanzhun.com/pl7170642.html?ka=review-item-ckqw"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.842285,
+          22.627978
+        ]
+      },
+      "properties": {
+        "city": "深圳市",
+        "name": "优学派（深圳市致远优学教育科技有限公司）（优学天下教育发展股份有限公司）",
+        "url": "",
+        "schedule": "规定965，实际一年3/4时间都是9(9-凌晨5)(6‖7)，没有加班工资。",
+        "evidence": [],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.057939,
+          22.543527
+        ]
+      },
+      "properties": {
+        "city": "深圳",
+        "name": "深圳农村商业银行",
+        "url": "",
+        "schedule": "8.5 8.5 6 外包",
+        "evidence": [],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.375547,
+          23.116754
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "北京中体联合数据科技有限公司",
+        "url": "",
+        "schedule": "996",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.393986,
+          39.885435
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "北京金山办公软件有限公司",
+        "url": "",
+        "schedule": "996，黑心企业，默认加班，无加班工资，不加班被谈话，一个奇葩的公司",
+        "evidence": [
+          "https://www.kanzhun.com/pl6009932.html?ka=comreview-showall1"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.185849,
+          31.129807
+        ]
+      },
+      "properties": {
+        "city": "合肥市",
+        "name": "安徽学云教育信息科技有限公司",
+        "url": "",
+        "schedule": "每周 一二四六 加班，虽然没说到几点，但基本默认必须到9点以后",
+        "evidence": [],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.304569,
+          30.593354
+        ]
+      },
+      "properties": {
+        "city": "武汉",
+        "name": "精灵云网络",
+        "url": "",
+        "schedule": "利用合同漏洞等拒绝赔偿开除赔款",
+        "evidence": [
+          "https://www.v2ex.com/t/563422",
+          "http://www.sohu.com/a/313841193_120047182"
+        ],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.555856,
+          31.697062
+        ]
+      },
+      "properties": {
+        "city": "马鞍山市",
+        "name": "马鞍山百助网络科技有限公司",
+        "url": "",
+        "schedule": "996",
+        "evidence": [
+          "https://www.zhipin.com/gongsi/ce2fa3a8b75fc0c91nBz2t8~.html?ka=company-intro"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.986718,
+          34.368567
+        ]
+      },
+      "properties": {
+        "city": "西安",
+        "name": "伯图大数据西安分公司",
+        "url": "",
+        "schedule": "我公司规定是996的上班模式，看能接受吗？第一个数字上班时间，第二个数字下班时间，第三个数字一周的上班天数。这是我们规定的上班时间，薪资可以谈，但是需要来公司和用人部门面谈一下。",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.066301,
+          30.572961
+        ]
+      },
+      "properties": {
+        "city": "成都",
+        "name": "成都几维科技",
+        "url": "http://www.kiwigames.cn/",
+        "schedule": "10 8 5，项目提审阶段10 10 6，实习生也不放过，并且实习生没有加班工资",
+        "evidence": [],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54573,
+          38.888876
+        ]
+      },
+      "properties": {
+        "city": "大连",
+        "name": "同方软银",
+        "url": "http://www.tfrunning.com.cn/",
+        "schedule": "996",
+        "evidence": [
+          "https://www.kanzhun.com/pl5661184.html?ka=review-item6",
+          "https://www.kanzhun.com/pl7170642.html?ka=review-item-ckqw"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.183801,
+          30.188888
+        ]
+      },
+      "properties": {
+        "city": "杭州",
+        "name": "浙江大华",
+        "url": "https://www.dahuatech.com/index.php/about.html",
+        "schedule": "浙江杭州办linux运维的技术支持大小周、无加班工资",
+        "evidence": [
+          "https://www.kanzhun.com/pl6967786.html?ka=review-item-ckqw"
+        ],
+        "color": "#ffab40",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.057939,
+          22.543527
+        ]
+      },
+      "properties": {
+        "city": "深圳",
+        "name": "利朗达",
+        "url": "http://www.rondaful.com/",
+        "schedule": "996、加班费一天15块",
+        "evidence": [
+          "https://www.zhihu.com/question/265739414"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.834228,
+          36.060798
+        ]
+      },
+      "properties": {
+        "city": "兰州",
+        "name": "中电万维",
+        "url": "http://www.wanwei.com.cn/",
+        "schedule": "997",
+        "evidence": [
+          "https://www.kanzhun.com/pl7109874.html?ka=review-item4"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.841682,
+          34.529682
+        ]
+      },
+      "properties": {
+        "city": "广州",
+        "name": "广州智悦网络科技有限公司",
+        "url": "",
+        "schedule": "995",
+        "evidence": [],
+        "color": "#ffd740",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.080469,
+          24.47634
+        ]
+      },
+      "properties": {
+        "city": "上海",
+        "name": "上海欧电云信息科技有限公司",
+        "url": "http://www.odianyun.com/",
+        "schedule": "表面是965，其实至少995，经常加班到凌晨1‖2点，没有加班工资。",
+        "evidence": [],
+        "color": "#ffd740",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.796624,
+          32.059344
+        ]
+      },
+      "properties": {
+        "city": "南京",
+        "name": "南京万米信息技术有限公司",
+        "url": "http://www.wanmi.com/",
+        "schedule": "公司经常996",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.771134,
+          26.612039
+        ]
+      },
+      "properties": {
+        "city": "兰州",
+        "name": "中电万维信息技术有限责任公司",
+        "url": "",
+        "schedule": "996",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.066301,
+          30.572961
+        ]
+      },
+      "properties": {
+        "city": "成都",
+        "name": "成都洋葱新未来网络科技有限公司",
+        "url": "",
+        "schedule": "9 10 6 无加班工资，工作日加班4小时第二天只能晚到30分钟，仅周末加班可调休",
+        "evidence": [],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.075668,
+          30.593589
+        ]
+      },
+      "properties": {
+        "city": "成都、宁波、惠州",
+        "name": "TCL通讯",
+        "url": "",
+        "schedule": "提倡996、007，无加班工资",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.130646,
+          22.652016
+        ]
+      },
+      "properties": {
+        "city": "深圳",
+        "name": "中睿宏智汽车技术（深圳）有限公司",
+        "url": "",
+        "schedule": "995并且拖欠工资",
+        "evidence": [
+          "https://www.v2ex.com/t/572452#reply413"
+        ],
+        "color": "#ffd740",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.727953,
+          32.204146
+        ]
+      },
+      "properties": {
+        "city": "北京、南京",
+        "name": "小诚文化传媒有限公司",
+        "url": "",
+        "schedule": "大小周、无加班工资、无年假、绩效占比过高",
+        "evidence": [],
+        "color": "#ffab40",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.473667,
+          31.230525
+        ]
+      },
+      "properties": {
+        "city": "上海",
+        "name": "思满科技",
+        "url": "",
+        "schedule": "至少996，无加班工资",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.080469,
+          24.47634
+        ]
+      },
+      "properties": {
+        "city": "上海",
+        "name": "上海非码网络科技有限公司",
+        "url": "",
+        "schedule": "996，无加班费，更不提供加班餐。",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.082229,
+          30.129609
+        ]
+      },
+      "properties": {
+        "city": "长沙",
+        "name": "杭州数梦工场科技有限公司",
+        "url": "",
+        "schedule": "周一到周四早9晚9 周五周日早9晚6",
+        "evidence": [],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.736452,
+          29.819376
+        ]
+      },
+      "properties": {
+        "city": "桐庐",
+        "name": "海康威视",
+        "url": "",
+        "schedule": "777大小周",
+        "evidence": [
+          "https://www.zhihu.com/question/36922386/answer/545711911"
+        ],
+        "color": "#ffab40",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.407387,
+          39.904179
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "北京狸米科技有限公司",
+        "url": "",
+        "schedule": "996",
+        "evidence": [
+          "https://www.zhihu.com/question/302231030/answer/885385515"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.209903,
+          30.246566
+        ]
+      },
+      "properties": {
+        "city": "杭州",
+        "name": "吾诺瀚卓",
+        "url": "",
+        "schedule": "8:30-18:00，一周6天",
+        "evidence": [],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.356464,
+          35.103771
+        ]
+      },
+      "properties": {
+        "city": "临沂",
+        "name": "临沂乐卓软件开发有限公司",
+        "url": "",
+        "schedule": "86.56",
+        "evidence": [],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.691698,
+          34.687886
+        ]
+      },
+      "properties": {
+        "city": "郑州",
+        "name": "宇通客车股份有限公司",
+        "url": "",
+        "schedule": "887",
+        "evidence": [],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.751884,
+          23.021016
+        ]
+      },
+      "properties": {
+        "city": "东莞",
+        "name": "华勤通讯",
+        "url": "http://www.huaqin.com/",
+        "schedule": "996，每天加班",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.234535,
+          31.803602
+        ]
+      },
+      "properties": {
+        "city": "杭州",
+        "name": "安徽凯才信息有限公司(呆萝卜)杭州研发中心",
+        "url": "",
+        "schedule": "996",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.245171,
+          35.005424
+        ]
+      },
+      "properties": {
+        "city": "山东临沂",
+        "name": "临沂沂川网络科技有限公司",
+        "url": "",
+        "schedule": "强制加班",
+        "evidence": [],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.245171,
+          35.005424
+        ]
+      },
+      "properties": {
+        "city": "山东临沂",
+        "name": "临沂沂川网络科技有限公司",
+        "url": "",
+        "schedule": "51强制加班不放假",
+        "evidence": [],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.245171,
+          35.005424
+        ]
+      },
+      "properties": {
+        "city": "山东临沂",
+        "name": "临沂沂川网络科技有限公司",
+        "url": "",
+        "schedule": "端午强制加班不放假",
+        "evidence": [],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.245171,
+          35.005424
+        ]
+      },
+      "properties": {
+        "city": "山东临沂",
+        "name": "临沂沂川网络科技有限公司",
+        "url": "",
+        "schedule": "请假1天扣双倍工资,定修4天(即使某月有5个周日)",
+        "evidence": [],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.319484,
+          35.018311
+        ]
+      },
+      "properties": {
+        "city": "山东临沂",
+        "name": "临沂沂川电子有限公司",
+        "url": "",
+        "schedule": "沂川网络招聘用的皮包公司",
+        "evidence": [],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.796624,
+          32.059344
+        ]
+      },
+      "properties": {
+        "city": "南京",
+        "name": "法奔科技",
+        "url": "",
+        "schedule": "996,阴阳合同,强制加班,扣离职工资,老板律师知法犯法",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.473667,
+          31.230525
+        ]
+      },
+      "properties": {
+        "city": "上海",
+        "name": "普道科技",
+        "url": "",
+        "schedule": "晚上11点,早上10点,一周6天,有的组一周7天，不让请事假病假，周六加班请假有惩罚",
+        "evidence": [],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.080469,
+          24.47634
+        ]
+      },
+      "properties": {
+        "city": "上海",
+        "name": "上海栈略数据技术有限公司",
+        "url": "",
+        "schedule": "时间不定, 基本8点, 扬言加班也得做完, 并没有任何补偿",
+        "evidence": [],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.407387,
+          39.904179
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "东方国信",
+        "url": "",
+        "schedule": "晚上9点,早上9点,一周6天",
+        "evidence": [],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.407387,
+          39.904179
+        ]
+      },
+      "properties": {
+        "city": "北京-长沙",
+        "name": "映客直播",
+        "url": "",
+        "schedule": "晚上隐性加班,一周6天",
+        "evidence": [],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.407387,
+          39.904179
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "澎思智能",
+        "url": "",
+        "schedule": "996",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.445849,
+          41.585772
+        ]
+      },
+      "properties": {
+        "city": "南京",
+        "name": "中设设计集团子公司纬信工程咨询公司",
+        "url": "http://www.js-wx.com.cn/lxwm.asp",
+        "schedule": "领导明令8106，工作前三年无年假",
+        "evidence": [],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.24374,
+          40.068971
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "畅捷通信息技术股份有限公司",
+        "url": "",
+        "schedule": "领导明令996, 每周二四固定加班",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.080469,
+          24.47634
+        ]
+      },
+      "properties": {
+        "city": "上海",
+        "name": "上海竟跃网络科技有限公司",
+        "url": "",
+        "schedule": "招聘网站写明007",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.833669,
+          24.88149
+        ]
+      },
+      "properties": {
+        "city": "云南昆明",
+        "name": "云南联通新通信有限公司",
+        "url": "",
+        "schedule": "云南联通新通信有限公司：云南联通经济效益太差执行混改后划分的子公司，新官上任三把火，加之内心清楚初始资本不够耗，运营模式商业转化效率低下，开始勒令开发996，执行之后对公说这是开发部门自发奋斗，其他部门应该与之学习",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.003346,
+          22.59384
+        ]
+      },
+      "properties": {
+        "city": "深圳-成都-重庆",
+        "name": "深圳市锐明技术股份有限公司",
+        "url": "",
+        "schedule": "领导明令996, 每周三固定加班,无加班工资，加班不调休",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.308566,
+          22.719344
+        ]
+      },
+      "properties": {
+        "city": "深圳",
+        "name": "深圳市万屏时代科技有限公司",
+        "url": "",
+        "schedule": "强制996，迟到早退罚款",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.066301,
+          30.572961
+        ]
+      },
+      "properties": {
+        "city": "成都",
+        "name": "天津硕烁科技有限公司",
+        "url": "",
+        "schedule": "应该是个外包壳公司，成都的注意这个办公地点（成都市 武侯区 招商银行金融后台服务中心）我看到有十来个公司招聘的办公地点都在这里，可以确定这里是个外包，这家公司明确的挂出了996",
+        "evidence": [
+          "https://m.zhipin.com/mpa/html/weijd/weijd-job/5610ccc9ecd3d5791nV83t6-FlJS?date8=20201223&sid=tosee_jd_89126274208e84961nZ52dm4GVpX"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.841682,
+          34.529682
+        ]
+      },
+      "properties": {
+        "city": "深圳",
+        "name": "深圳市富元网络科技有限公司",
+        "url": "",
+        "schedule": "公司老板强制996，无加班费，只有远低于工资的少量餐补，公司已从“深圳市新超能数字信息技术服务有限公司”改名为“深圳市富元网络科技有限公司”，简称“富元环球”",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.407387,
+          39.904179
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "Udesk(北京沃丰时代数据科技有限公司)",
+        "url": "",
+        "schedule": "996",
+        "evidence": [
+          "https://www.zhihu.com/question/50785581"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.174194,
+          31.147378
+        ]
+      },
+      "properties": {
+        "city": "广东",
+        "name": "广东数果科技有限公司",
+        "url": "http://sugo.io/",
+        "schedule": "某领导高层要求产品团队强制 996，忽悠的一波并且不给加班费；钉钉上打卡时间设置下21:00才下班，早下的视为早退；已经有几个同事提出离职，已经有几个同事不服从的被离职。见到的不要来啊，福利真的没啥。",
+        "evidence": [],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.080469,
+          24.47634
+        ]
+      },
+      "properties": {
+        "city": "上海",
+        "name": "上海电信CRM项目组",
+        "url": "",
+        "schedule": "每天至少工作12小时，周末采取大小周",
+        "evidence": [
+          "http://www.shftth.com/news/2019-6-13/981.html"
+        ],
+        "color": "#ffab40",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.337764,
+          39.957231
+        ]
+      },
+      "properties": {
+        "city": "广州",
+        "name": "北京滴普科技有限公司",
+        "url": "",
+        "schedule": "群里宣布10106/996,请假还需报备",
+        "evidence": [
+          "https://www.kanzhun.com/gso7687290.html?ka=com1-title"
+        ],
+        "color": "#ff5252",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.36039,
+          40.061057
+        ]
+      },
+      "properties": {
+        "city": "北京",
+        "name": "北京信安世纪科技股份有限公司 / 北京华耀科技有限公司",
+        "url": "",
+        "schedule": "985，明确表明20:00前的加班不算加班，不统计进调休时间内。",
+        "evidence": [],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.129778,
+          39.095165
+        ]
+      },
+      "properties": {
+        "city": "天津",
+        "name": "北京安华金和科技有限公司-天津研发中心",
+        "url": "",
+        "schedule": "某大领导为赶所谓的进度群里要求晚上加班到21:00以后，周六也要来上班",
+        "evidence": [],
+        "color": "#bdbdbd",
+        "update_date": "2025-12-08"
+      }
+    }
+  ]
+}

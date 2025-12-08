@@ -11,3 +11,56 @@
 *.sw*
 
 *.bat
+
+# === 996.MAP 项目特定忽略规则 ===
+
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+
+# 缓存和临时文件
+data/geocache.json
+data/raw_blacklist.md
+data/archives/
+data/companies.json
+data/companies-with-coords.json
+data/*-formatted.geojson
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# 日志文件
+*.log
+logs/
+
+# OS生成文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE配置
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.roo/
+
+# 临时文件
+*.tmp
+*.temp
+*.bak
+.cache/

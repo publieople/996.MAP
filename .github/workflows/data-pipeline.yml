@@ -1,0 +1,199 @@
+name: 996.MAP Data Pipeline
+
+on:
+  schedule:
+    # 每周日凌晨2点 UTC 运行
+    - cron: "0 2 * * 0"
+
+  workflow_dispatch:
+    # 允许手动触发
+
+jobs:
+  sync-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检出 main 分支
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 检出 upstream-sync 分支
+        run: |
+          git fetch origin upstream-sync:upstream-sync || true
+          git checkout upstream-sync || git checkout -b upstream-sync
+
+      - name: 添加上游仓库
+        run: |
+          git remote add upstream https://github.com/996icu/996.ICU.git || true
+
+      - name: 拉取上游更新
+        run: |
+          git fetch upstream
+          git reset --hard upstream/master
+          git push origin upstream-sync --force
+
+      - name: 切回 main 分支
+        run: git checkout main
+
+      - name: 复制黑名单文件
+        run: |
+          mkdir -p data
+          cp upstream-sync/blacklist/README.md data/raw_blacklist.md || true
+
+      - name: 安装 uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          version: "latest"
+          enable-cache: true
+
+      - name: 设置 Python 环境
+        run: uv python install 3.13
+
+      - name: 安装依赖
+        run: uv sync
+
+      - name: 运行 Markdown 解析脚本
+        run: |
+          uv run python scripts/1-parse-blacklist.py
+          if [ ! -f "data/companies.json" ]; then
+            echo "❌ companies.json 未生成"
+            exit 1
+          fi
+          if [ ! -s "data/companies.json" ]; then
+            echo "❌ companies.json 为空"
+            exit 1
+          fi
+          echo "✅ Markdown 解析完成"
+
+      - name: 运行地理编码脚本
+        env:
+          GAODE_API_KEY: ${{ secrets.GAODE_API_KEY }}
+          GEOCODE_PROVIDER: ${{ secrets.GEOCODE_PROVIDER }}
+          GEOCODE_BATCH_SIZE: ${{ secrets.GEOCODE_BATCH_SIZE }}
+        run: |
+          uv run python scripts/2-geocode.py
+          if [ ! -f "data/companies-with-coords.json" ]; then
+            echo "❌ companies-with-coords.json 未生成"
+            exit 1
+          fi
+          if [ ! -s "data/companies-with-coords.json" ]; then
+            echo "❌ companies-with-coords.json 为空"
+            exit 1
+          fi
+          echo "✅ 地理编码完成"
+
+      - name: 运行 GeoJSON 生成脚本
+        run: |
+          uv run python scripts/3-generate-geojson.py
+          if [ ! -f "public/companies.geojson" ]; then
+            echo "❌ companies.geojson 未生成"
+            exit 1
+          fi
+          if [ ! -s "public/companies.geojson" ]; then
+            echo "❌ companies.geojson 为空"
+            exit 1
+          fi
+          echo "✅ GeoJSON 生成完成"
+
+      - name: 验证 GeoJSON 文件
+        run: |
+          # 检查文件大小
+          FILE_SIZE=$(stat -c%s "public/companies.geojson")
+          if [ $FILE_SIZE -lt 1024 ]; then
+            echo "❌ GeoJSON 文件太小 (< 1KB)"
+            exit 1
+          fi
+          if [ $FILE_SIZE -gt 10485760 ]; then
+            echo "❌ GeoJSON 文件太大 (> 10MB)"
+            exit 1
+          fi
+
+          # 验证 JSON 格式
+          uv run python -m json.tool "public/companies.geojson" > /dev/null
+          if [ $? -ne 0 ]; then
+            echo "❌ GeoJSON 格式无效"
+            exit 1
+          fi
+
+          # 验证是否包含 features
+          FEATURE_COUNT=$(uv run python -c "import json; data=json.load(open('public/companies.geojson')); print(len(data.get('features', [])))")
+          if [ $FEATURE_COUNT -eq 0 ]; then
+            echo "❌ GeoJSON 不包含任何 features"
+            exit 1
+          fi
+
+          echo "✅ GeoJSON 验证通过 (${FEATURE_COUNT} 个 features)"
+
+      - name: 备份数据文件
+        run: |
+          # 创建备份目录
+          mkdir -p data/archives
+
+          # 生成备份文件名
+          BACKUP_DATE=$(date -u +%Y-%m-%d)
+
+          # 备份中间文件
+          cp data/companies.json "data/archives/companies-${BACKUP_DATE}.json"
+          cp data/companies-with-coords.json "data/archives/companies-with-coords-${BACKUP_DATE}.json"
+
+          echo "✅ 数据备份完成"
+
+      - name: 检查数据变更
+        id: check_changes
+        run: |
+          # 检查是否有变更
+          git diff --quiet public/companies.geojson
+          if [ $? -eq 0 ]; then
+            echo "❌ 数据无变更，跳过提交"
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "✅ 检测到数据变更"
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: 提交变更
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          # 添加变更的文件
+          git add public/companies.geojson
+          git add data/archives/
+
+          # 提交变更
+          COMMIT_MSG="auto: update map data $(date -u +%Y-%m-%d)"
+          git commit -m "$COMMIT_MSG"
+
+          # 推送到 main 分支
+          git push origin main
+
+          echo "✅ 数据已提交: $COMMIT_MSG"
+
+      - name: 部署到 GitHub Pages
+        if: steps.check_changes.outputs.has_changes == 'true'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: gh-pages
+          force_orphan: true
+
+      - name: 上传错误日志
+        if: failure()
+        uses: actions/upload-artifact@v3
+        with:
+          name: error-logs
+          path: |
+            data/parse_errors.log
+            data/geocode_errors.log
+          retention-days: 30
+
+      - name: 清理缓存
+        if: always()
+        run: |
+          # 清理临时文件
+          rm -f data/raw_blacklist.md
+          echo "✅ 清理完成"
