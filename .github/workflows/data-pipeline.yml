@@ -133,8 +133,7 @@ jobs:
       - name: 检查数据变更
         id: check_changes
         run: |
-          git diff --quiet public/companies.geojson
-          if [ $? -eq 0 ]; then
+          if [ -n "$(git status --porcelain public/companies.geojson 2>/dev/null)" ]; then
             echo "❌ 数据无变更，跳过提交"
             echo "has_changes=false" >> $GITHUB_OUTPUT
           else
