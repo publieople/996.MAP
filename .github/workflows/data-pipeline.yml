@@ -15,11 +15,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 检出 main 分支
+      - name: 检出 master 分支
         uses: actions/checkout@v4
-        with:
-          ref: main
-          # token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: 检出 upstream-sync 分支
         run: |
