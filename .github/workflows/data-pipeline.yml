@@ -6,13 +6,16 @@ on:
   workflow_dispatch: # 允许手动触发
 
 permissions:
-  contents: write
-  pages: write
-  id-token: write
+  contents: read      # 检出代码
+  pages: write        # 部署 Pages
+  id-token: write     # 验证身份
 
 jobs:
+  # 数据处理作业
   sync-data:
     runs-on: ubuntu-latest
+    outputs:
+      has_changes: ${{ steps.check_changes.outputs.has_changes }}
 
     steps:
       - name: 检出 master 分支
@@ -39,7 +42,7 @@ jobs:
       - name: 复制黑名单文件
         run: |
           mkdir -p data
-          cp upstream-sync/blacklist/README.md data/raw_blacklist.md || true
+          cp blacklist/README.md data/raw_blacklist.md || true
 
       - name: 安装 uv
         uses: astral-sh/setup-uv@v4
@@ -134,37 +137,39 @@ jobs:
         id: check_changes
         run: |
           if [ -n "$(git status --porcelain public/companies.geojson 2>/dev/null)" ]; then
-            echo "❌ 数据无变更，跳过提交"
-            echo "has_changes=false" >> $GITHUB_OUTPUT
-          else
             echo "✅ 检测到数据变更"
             echo "has_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "❌ 数据无变更，跳过部署"
+            echo "has_changes=false" >> $GITHUB_OUTPUT
           fi
         continue-on-error: true
 
-      - name: 提交变更
+      - name: 配置 Pages 部署
         if: steps.check_changes.outputs.has_changes == 'true'
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+        uses: actions/configure-pages@v5
 
-          git add public/companies.geojson
-          git add data/archives/
-
-          COMMIT_MSG="auto: update map data $(date -u +%Y-%m-%d)"
-          git commit -m "$COMMIT_MSG"
-          git push origin master
-
-          echo "✅ 数据已提交: $COMMIT_MSG"
-
-      - name: 部署到 GitHub Pages
+      - name: 上传 Pages 产物
         if: steps.check_changes.outputs.has_changes == 'true'
-        uses: peaceiris/actions-gh-pages@v4
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-          publish_branch: gh-pages
-          force_orphan: true
+          path: ./public  # 静态文件目录
+
+  # 部署作业
+  deploy:
+    needs: sync-data
+    if: needs.sync-data.outputs.has_changes == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
 
       - name: 上传错误日志
         if: failure()
