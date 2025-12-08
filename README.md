@@ -9,7 +9,7 @@
 
 996.MAP 是基于 [996.ICU](https://github.com/996icu/996.ICU) 项目的可视化地图应用，将 Markdown 格式的公司黑名单转换为地理数据并在网页地图中展示。项目采用全自动数据管道，定期从上游拉取更新，通过纯 Markdown 解析、地理编码后生成地图数据。
 
-**在线访问：** [https://996icu.github.io/996.MAP](https://996icu.github.io/996.MAP)
+**在线访问：** [https://publieople.github.io/996.MAP/](https://publieople.github.io/996.MAP/)
 
 ## 📊 数据概览
 
