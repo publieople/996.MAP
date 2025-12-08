@@ -2,20 +2,19 @@ name: 996.MAP Data Pipeline
 
 on:
   schedule:
-    - cron: "0 2 * * 0" # 每周日凌晨2点 UTC
-  workflow_dispatch: # 允许手动触发
+    - cron: "0 2 * * 0"
+  workflow_dispatch:
 
 permissions:
-  contents: read      # 检出代码
-  pages: write        # 部署 Pages
-  id-token: write     # 验证身份
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
-  # 数据处理作业
   sync-data:
     runs-on: ubuntu-latest
     outputs:
-      has_changes: ${{ steps.check_changes.outputs.has_changes }}
+      should_deploy: ${{ steps.validate_geojson.outputs.should_deploy }}
 
     steps:
       - name: 检出 master 分支
@@ -27,8 +26,7 @@ jobs:
           git checkout upstream-sync || git checkout -b upstream-sync
 
       - name: 添加上游仓库
-        run: |
-          git remote add upstream https://github.com/996icu/996.ICU.git || true
+        run: git remote add upstream https://github.com/996icu/996.ICU.git || true
 
       - name: 拉取上游更新
         run: |
@@ -59,14 +57,7 @@ jobs:
       - name: 运行 Markdown 解析脚本
         run: |
           uv run python scripts/1-parse-blacklist.py
-          if [ ! -f "data/companies.json" ]; then
-            echo "❌ companies.json 未生成"
-            exit 1
-          fi
-          if [ ! -s "data/companies.json" ]; then
-            echo "❌ companies.json 为空"
-            exit 1
-          fi
+          [ -f "data/companies.json" ] && [ -s "data/companies.json" ]
           echo "✅ Markdown 解析完成"
 
       - name: 运行地理编码脚本
@@ -76,56 +67,31 @@ jobs:
           GEOCODE_BATCH_SIZE: ${{ secrets.GEOCODE_BATCH_SIZE }}
         run: |
           uv run python scripts/2-geocode.py
-          if [ ! -f "data/companies-with-coords.json" ]; then
-            echo "❌ companies-with-coords.json 未生成"
-            exit 1
-          fi
-          if [ ! -s "data/companies-with-coords.json" ]; then
-            echo "❌ companies-with-coords.json 为空"
-            exit 1
-          fi
+          [ -f "data/companies-with-coords.json" ] && [ -s "data/companies-with-coords.json" ]
           echo "✅ 地理编码完成"
 
       - name: 运行 GeoJSON 生成脚本
         run: |
           uv run python scripts/3-generate-geojson.py
-          if [ ! -f "public/companies.geojson" ]; then
-            echo "❌ companies.geojson 未生成"
-            exit 1
-          fi
-          if [ ! -s "public/companies.geojson" ]; then
-            echo "❌ companies.geojson 为空"
-            exit 1
-          fi
+          [ -f "public/companies.geojson" ] && [ -s "public/companies.geojson" ]
           echo "✅ GeoJSON 生成完成"
 
       - name: 验证 GeoJSON 文件
+        id: validate_geojson
         run: |
           FILE_SIZE=$(stat -c%s "public/companies.geojson")
-          if [ $FILE_SIZE -lt 1024 ]; then
-            echo "❌ GeoJSON 文件太小 (< 1KB)"
-            exit 1
-          fi
-          if [ $FILE_SIZE -gt 10485760 ]; then
-            echo "❌ GeoJSON 文件太大 (> 10MB)"
-            exit 1
-          fi
+          [ $FILE_SIZE -ge 1024 ] && [ $FILE_SIZE -le 10485760 ]
 
           uv run python -m json.tool "public/companies.geojson" > /dev/null
-          if [ $? -ne 0 ]; then
-            echo "❌ GeoJSON 格式无效"
-            exit 1
-          fi
 
           FEATURE_COUNT=$(uv run python -c "import json; data=json.load(open('public/companies.geojson')); print(len(data.get('features', [])))")
-          if [ $FEATURE_COUNT -eq 0 ]; then
-            echo "❌ GeoJSON 不包含任何 features"
-            exit 1
-          fi
+          [ $FEATURE_COUNT -gt 0 ]
 
           echo "✅ GeoJSON 验证通过 (${FEATURE_COUNT} 个 features)"
+          echo "should_deploy=true" >> $GITHUB_OUTPUT
 
       - name: 备份数据文件
+        if: steps.validate_geojson.outputs.should_deploy == 'true'
         run: |
           mkdir -p data/archives
           BACKUP_DATE=$(date -u +%Y-%m-%d)
@@ -138,27 +104,24 @@ jobs:
         run: |
           if [ -n "$(git status --porcelain public/companies.geojson 2>/dev/null)" ]; then
             echo "✅ 检测到数据变更"
-            echo "has_changes=true" >> $GITHUB_OUTPUT
-          else
-            echo "❌ 数据无变更，跳过部署"
-            echo "has_changes=false" >> $GITHUB_OUTPUT
+            # 可选：提交到 master
+            git config --local user.email "github-actions[bot]@users.noreply.github.com"
+            git config --local user.name "github-actions[bot]"
+            git add public/companies.geojson data/archives/
+            git commit -m "auto: update map data $(date -u +%Y-%m-%d)" || true
+            git push origin master || true
           fi
         continue-on-error: true
 
-      - name: 配置 Pages 部署
-        if: steps.check_changes.outputs.has_changes == 'true'
-        uses: actions/configure-pages@v5
-
       - name: 上传 Pages 产物
-        if: steps.check_changes.outputs.has_changes == 'true'
+        if: steps.validate_geojson.outputs.should_deploy == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public  # 静态文件目录
+          path: ./public
 
-  # 部署作业
   deploy:
     needs: sync-data
-    if: needs.sync-data.outputs.has_changes == 'true'
+    if: needs.sync-data.outputs.should_deploy == 'true'
     runs-on: ubuntu-latest
     permissions:
       pages: write
