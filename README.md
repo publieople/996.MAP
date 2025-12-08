@@ -223,7 +223,7 @@ graph TD
 
 ### 报告问题
 
-- 在 [Issues](https://github.com/996icu/996.MAP/issues) 中报告 bug
+- 在 [Issues](https://github.com/publieople/996.MAP/issues) 中报告 bug
 - 提供详细的错误信息和复现步骤
 - 附上相关日志文件（如存在）
 
