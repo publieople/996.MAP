@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>996.MAP - 可视化996工作制公司分布</title>
-    
+
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    
+
     <!-- Leaflet.markercluster CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
-    
+
     <style>
         body {
             margin: 0;
             padding: 0;
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
         }
-        
+
         #map {
             width: 100%;
             height: 100vh;
         }
-        
+
         .header {
             position: absolute;
             top: 10px;
@@ -32,22 +33,22 @@
             background: rgba(255, 255, 255, 0.9);
             padding: 10px 20px;
             border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             z-index: 1000;
             text-align: center;
         }
-        
+
         .header h1 {
             margin: 0 0 5px 0;
             font-size: 18px;
             color: #333;
         }
-        
+
         .header .subtitle {
             font-size: 12px;
             color: #666;
         }
-        
+
         .legend {
             position: absolute;
             top: 10px;
@@ -55,54 +56,54 @@
             background: rgba(255, 255, 255, 0.9);
             padding: 15px;
             border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             z-index: 1000;
         }
-        
+
         .legend h3 {
             margin: 0 0 10px 0;
             font-size: 14px;
             color: #333;
         }
-        
+
         .legend-item {
             display: flex;
             align-items: center;
             margin-bottom: 5px;
             font-size: 12px;
         }
-        
+
         .legend-color {
             width: 12px;
             height: 12px;
             border-radius: 50%;
             margin-right: 8px;
         }
-        
+
         .company-popup {
             font-size: 14px;
             line-height: 1.5;
         }
-        
+
         .company-popup h3 {
             margin: 0 0 10px 0;
             font-size: 16px;
             color: #333;
         }
-        
+
         .company-popup .info-item {
             margin-bottom: 8px;
         }
-        
+
         .company-popup .label {
             font-weight: bold;
             color: #666;
         }
-        
+
         .company-popup .evidence-links {
             margin-top: 10px;
         }
-        
+
         .company-popup .evidence-links a {
             display: block;
             color: #0066cc;
@@ -110,18 +111,18 @@
             margin-bottom: 3px;
             font-size: 12px;
         }
-        
+
         .company-popup .evidence-links a:hover {
             text-decoration: underline;
         }
-        
+
         .company-popup .update-date {
             margin-top: 10px;
             font-size: 11px;
             color: #999;
             text-align: right;
         }
-        
+
         .loading {
             position: absolute;
             top: 50%;
@@ -130,11 +131,11 @@
             background: rgba(255, 255, 255, 0.9);
             padding: 20px;
             border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             z-index: 2000;
             text-align: center;
         }
-        
+
         .loading-spinner {
             border: 3px solid #f3f3f3;
             border-top: 3px solid #3498db;
@@ -144,12 +145,17 @@
             animation: spin 1s linear infinite;
             margin: 0 auto 10px;
         }
-        
+
         @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
         }
-        
+
         .stats {
             position: absolute;
             bottom: 10px;
@@ -157,21 +163,22 @@
             background: rgba(255, 255, 255, 0.9);
             padding: 10px 15px;
             border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             z-index: 1000;
             font-size: 12px;
             color: #666;
         }
     </style>
 </head>
+
 <body>
     <div id="map"></div>
-    
+
     <div class="header">
         <h1>996.MAP</h1>
         <div class="subtitle">可视化996工作制公司分布</div>
     </div>
-    
+
     <div class="legend">
         <h3>工作制度图例</h3>
         <div class="legend-item">
@@ -191,11 +198,11 @@
             <span>其他/不明确</span>
         </div>
     </div>
-    
+
     <div class="stats" id="stats">
         加载中...
     </div>
-    
+
     <div class="loading" id="loading">
         <div class="loading-spinner"></div>
         <div>正在加载地图数据...</div>
@@ -203,10 +210,10 @@
 
     <!-- Leaflet JS -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    
+
     <!-- Leaflet.markercluster JS -->
     <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
-    
+
     <script>
         // 地图配置
         const MAP_CONFIG = {
@@ -215,7 +222,7 @@
             minZoom: 3,
             maxZoom: 18
         };
-        
+
         // 初始化地图
         const map = L.map('map', {
             center: MAP_CONFIG.center,
@@ -223,27 +230,27 @@
             minZoom: MAP_CONFIG.minZoom,
             maxZoom: MAP_CONFIG.maxZoom
         });
-        
+
         // 添加地图图层
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '© OpenStreetMap contributors',
             maxZoom: 19
         }).addTo(map);
-        
+
         // 创建标记聚类组
         const markers = L.markerClusterGroup({
             chunkedLoading: true,
-            spiderfyOnMaxZoom: false,
-            showCoverageOnHover: false,
+            spiderfyOnMaxZoom: true,
+            showCoverageOnHover: true,
             zoomToBoundsOnClick: true,
             maxClusterRadius: 50
         });
-        
+
         // 创建公司标记
         function createCompanyMarker(company) {
             const props = company.properties;
             const color = props.color;
-            
+
             // 创建圆形标记
             const marker = L.circleMarker([company.geometry.coordinates[1], company.geometry.coordinates[0]], {
                 radius: 8,
@@ -253,14 +260,14 @@
                 opacity: 1,
                 fillOpacity: 0.8
             });
-            
+
             // 创建弹出内容
             const popupContent = createPopupContent(props);
             marker.bindPopup(popupContent);
-            
+
             return marker;
         }
-        
+
         // 创建弹出内容
         function createPopupContent(props) {
             let content = `
@@ -273,7 +280,7 @@
                         <span class="label">制度：</span>${props.schedule}
                     </div>
             `;
-            
+
             // 添加官网链接
             if (props.url) {
                 content += `
@@ -283,7 +290,7 @@
                     </div>
                 `;
             }
-            
+
             // 添加证据链接
             if (props.evidence && props.evidence.length > 0) {
                 content += '<div class="evidence-links">';
@@ -293,15 +300,15 @@
                 });
                 content += '</div>';
             }
-            
+
             content += `
                     <div class="update-date">数据更新时间：${props.update_date}</div>
                 </div>
             `;
-            
+
             return content;
         }
-        
+
         // 加载GeoJSON数据
         async function loadGeoJSONData() {
             try {
@@ -309,23 +316,23 @@
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
-                
+
                 const geojsonData = await response.json();
-                
+
                 // 验证数据
                 if (!geojsonData.features || geojsonData.features.length === 0) {
                     throw new Error('GeoJSON数据为空');
                 }
-                
+
                 // 添加标记到聚类组
                 geojsonData.features.forEach(feature => {
                     const marker = createCompanyMarker(feature);
                     markers.addLayer(marker);
                 });
-                
+
                 // 添加聚类组到地图
                 map.addLayer(markers);
-                
+
                 // 自适应缩放
                 if (markers.getBounds().isValid()) {
                     map.fitBounds(markers.getBounds(), {
@@ -333,15 +340,15 @@
                         maxZoom: 10
                     });
                 }
-                
+
                 // 更新统计信息
                 updateStats(geojsonData.features.length);
-                
+
                 // 隐藏加载提示
                 document.getElementById('loading').style.display = 'none';
-                
+
                 console.log(`成功加载 ${geojsonData.features.length} 个公司标记`);
-                
+
             } catch (error) {
                 console.error('加载地图数据失败:', error);
                 document.getElementById('loading').innerHTML = `
@@ -352,23 +359,24 @@
                 `;
             }
         }
-        
+
         // 更新统计信息
         function updateStats(count) {
             const stats = document.getElementById('stats');
             stats.innerHTML = `总计: ${count} 家公司`;
         }
-        
+
         // 页面加载完成后初始化
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             // 延迟加载，确保地图完全初始化
             setTimeout(loadGeoJSONData, 500);
         });
-        
+
         // 窗口大小改变时重新调整地图
-        window.addEventListener('resize', function() {
+        window.addEventListener('resize', function () {
             map.invalidateSize();
         });
     </script>
 </body>
+
 </html>
