@@ -1,9 +1,8 @@
 # 996.MAP - 可视化 996 工作制公司分布
 
-[![Badge](https://img.shields.io/badge/link-996.icu-%23FF4D5B.svg?style=flat-square)](https://996.icu/#/en_US)
+[![Badge](https://img.shields.io/badge/link-996.icu-%23FF4D5B.svg?style=flat-square)](https://996.icu/)
 [![License](https://img.shields.io/badge/license-Anti%20996-blue.svg)](LICENSE)
-[![Website](https://img.shields.io/website-up-down-green-red/https/996icu.github.io/996.MAP.svg)](https://996icu.github.io/996.MAP)
-[![GitHub Pages Status](https://github.com/996icu/996.MAP/workflows/996.MAP%20Data%20Pipeline/badge.svg)](https://github.com/996icu/996.MAP/actions)
+[![GitHub Pages Status](https://github.com/publieople/996.MAP/workflows/996.MAP%20Data%20Pipeline/badge.svg)](https://github.com/996icu/996.MAP/actions)
 
 ## 🗺️ 项目简介
 
